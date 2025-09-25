@@ -11,14 +11,13 @@ hist(data)
 
 # Descriptive statistics
 cat(
-    "min: ", min(data),
-    "\nQ1: ", quantile(data, p=0.25),
-    "\nmed: ", median(data),
-    "\nmean: ", mean(data),
-    "\nQ3: ", quantile(data, p=0.75),
-    "\nmax", max(data),
-    "\nsd: ", sd(data),
-    "\n"
+    "min: ", min(data), "\n",
+    "Q1: ", quantile(data, p=0.25), "\n",
+    "med: ", median(data), "\n",
+    "mean: ", mean(data), "\n",
+    "Q3: ", quantile(data, p=0.75), "\n",
+    "max", max(data), "\n",
+    "sd: ", sd(data), "\n"
 )
 
 # Q3?
