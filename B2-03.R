@@ -22,3 +22,6 @@ cat(
 lower <- data[ data < Q1 - 1.5 * IQR ]
 upper <- data[ data > Q3 + 1.5 * IQR ]
 cat( "Outliers", lower, upper, "\n" )
+
+p90 = quantile(data, p = 0.75)
+cat("90. percentile", p90, "\n")
